@@ -22,7 +22,7 @@ class Shoppingbasket{
     public function addItem($item, $id){
         $itemWrapper = ['quantity' => 0, 'price' => $item->price, 'item' => $item];
         if($this->items){
-            if(array_key_exists($id, $this->items)){
+            if(array_key_exists($id, $this->items)){//
                 $itemWrapper = $this->items[$id];
             }
         }
