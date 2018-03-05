@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'server10.chosting.dk'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'ageras'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', 'root'),
+            'database' => env('DB_DATABASE', 'adgrego1_ageras'),
+            'username' => env('DB_USERNAME', 'adgrego1_admin3'),
+            'password' => env('DB_PASSWORD', 'agerastest1234'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
